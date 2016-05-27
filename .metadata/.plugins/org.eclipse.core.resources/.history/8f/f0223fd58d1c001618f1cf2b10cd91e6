@@ -1,0 +1,10 @@
+package com.hk.db;
+
+import com.hk.pojo.TweetPojo;
+
+public interface TweetDB {
+	public void putData(String str);
+	public void putData(TweetPojo pojo);
+	public String getData();
+
+}

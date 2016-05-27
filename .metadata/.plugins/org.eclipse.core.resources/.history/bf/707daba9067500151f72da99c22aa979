@@ -1,0 +1,20 @@
+
+
+/**
+ * @author harikanththatikonda
+ */
+//object DemoPrint {
+//  def main(args: Array[String]): Unit ={}
+//  println("Welcome to Scla!!!!!")
+//  
+//}
+class duck(val age: Int,val size:Int ){
+
+  print("in declaration")
+  def msg="age is:"+age+" size is "+size
+  
+}
+object dobj extends App{
+  val d1 = new duck(4,5)
+//  d1.msg
+}

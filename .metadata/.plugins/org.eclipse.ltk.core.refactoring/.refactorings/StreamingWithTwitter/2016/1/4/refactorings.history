@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;StreamingWithTwitter/src/Streaming&apos; to &apos;Streaming.java&apos;" description="Rename resource &apos;Streaming&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Streaming" name="Streaming.java" stamp="1453023072317" updateReferences="true"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;MyScalaProject/src/ProjectWork.scala&apos; to &apos;ProjectWork1.scala&apos;" description="Rename resource &apos;ProjectWork.scala&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/ProjectWork.scala" name="ProjectWork1.scala" stamp="1446425067033" updateReferences="true"/>
+</session>

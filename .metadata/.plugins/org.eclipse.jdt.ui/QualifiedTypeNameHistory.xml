@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.hk.db.utils.DBConstants"/>
+<fullyQualifiedTypeName name="com.hk.db.mongo.DBConnection"/>
+<fullyQualifiedTypeName name="com.hk.db.mongo.DBFactory"/>
+<fullyQualifiedTypeName name="com.hk.db.mongo.DBConnFactory"/>
+<fullyQualifiedTypeName name="com.mongodb.DBObject"/>
+<fullyQualifiedTypeName name="com.mongodb.BasicDBObject"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+<fullyQualifiedTypeName name="javax.ws.rs.PUT"/>
+<fullyQualifiedTypeName name="javax.ws.rs.POST"/>
+<fullyQualifiedTypeName name="javax.ws.rs.PathParam"/>
+<fullyQualifiedTypeName name="com.hk.db.PersonDB"/>
+<fullyQualifiedTypeName name="com.fasterxml.jackson.databind.ObjectMapper"/>
+<fullyQualifiedTypeName name="com.hk.pojo.Person"/>
+<fullyQualifiedTypeName name="com.hk.db.impl.PersonDBImpl"/>
+</qualifiedTypeNameHistroy>

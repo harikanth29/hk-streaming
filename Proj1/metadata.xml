@@ -1,0 +1,105 @@
+<?xml version='1.1'?>
+<container xmlns="com.apple.ist.ets.hawk:document" guid="0-06DCEA000CDC-150857E7E52" schema=".archive" schemaDefinedIn="com.apple.ist.ets.archivekit.document.metadata.ArchiveDefs">
+    <attrs traits="container,internal">
+        <enumAttr name="archiveKitPackagedVersion">ArchiveKit-199</enumAttr>
+        <textAttr name="containerStatusCode">RETAINED</textAttr>
+    </attrs>
+    <attrs traits="container,integrity,path">
+        <textAttr name="contextFolderPath">INBOX</textAttr>
+    </attrs>
+    <attrs traits="integrity">
+        <longAttr name="sourceFileSize">5235</longAttr>
+        <stringAttr name="sourceType">IMAP</stringAttr>
+    </attrs>
+    <attrs traits="container,obsolete">
+        <stringAttr name="contextFileGroup">3812</stringAttr>
+        <stringAttr name="contextFileOwner">5035</stringAttr>
+    </attrs>
+    <attrs traits="container">
+        <hashAttr name="containerFullHash">FD4ECB1749D1F68209498A552CB3A1357CA6CA5C0EACB9CEEB993F1AC1F3D8A7</hashAttr>
+        <stringAttr name="contextFileContentType">com.apple.mail.email</stringAttr>
+        <stringAttr name="contextFileUnixPerms">644</stringAttr>
+        <longAttr name="custodianId">1825087713</longAttr>
+        <booleanAttr name="hasUnpreservedParent">true</booleanAttr>
+    </attrs>
+    <attrs>
+        <dateTimeAttr name="archivedDate">2015-10-20T13:44:29.722Z</dateTimeAttr>
+        <dateTimeAttr name="collectedDate">2015-10-20T13:39:02.186Z</dateTimeAttr>
+        <longAttr name="collectionCaseId">1</longAttr>
+        <longAttr name="collectionId">3</longAttr>
+        <stringAttr name="collectionName">1-P-1825087713-1-1445347189994</stringAttr>
+    </attrs>
+    <elements>
+        <element kind="document" id="0">
+            <attrs traits="document,content">
+                <textAttr name="subject">TestEmailNotificationfor COLLECTION_SUCCESS</textAttr>
+            </attrs>
+            <attrs traits="content">
+                <textAttr name="messageFrom">&lt;hawkqa3@mmptest.apple.com></textAttr>
+                <textAttr name="messageTo">&lt;hawkqa8@mailtest.apple.com></textAttr>
+            </attrs>
+            <attrs traits="element,path">
+                <textAttr name="localName">TestEmailNotificationfor COLLECTION_SUCCESS.eml</textAttr>
+            </attrs>
+            <attrs traits="set">
+                <stringAttr name="fileUniformTypeId">com.apple.mail.email</stringAttr>
+            </attrs>
+            <attrs traits="document">
+                <enumAttr name="contentHandlingCode">NORMAL</enumAttr>
+            </attrs>
+            <attrs traits="element">
+                <hashAttr name="contentHash">4ECF9A889765050DA640E45E3E35B44A792B8828B1B4E76E9EA01344ADBE367F</hashAttr>
+                <enumAttr name="contentReasonCode">FULLY_EXTRACTED</enumAttr>
+                <enumAttr name="contentStatusCode">SUCCESS</enumAttr>
+                <longAttr name="dataSize">5235</longAttr>
+                <hashAttr name="fullHash">91667A3012D22E5D662A1DB04C03D25AA1A6DFC9EEABF893CE4DA9F7BAC63E6F</hashAttr>
+                <hashAttr name="streamHash">0761B0879E87D092D0F6941BE0FB04D8406168EB405F667DAF429D821EC145F3</hashAttr>
+            </attrs>
+            <attrs>
+                <longAttr name="fileOwnerPosixGroupId">3812</longAttr>
+                <longAttr name="fileOwnerPosixUserId">5035</longAttr>
+                <textAttr name="fileTypeDetail">Email Message</textAttr>
+                <stringAttr name="fileUnixPerms">644</stringAttr>
+                <stringAttr name="localFileTypeId">EMAIL</stringAttr>
+                <textAttr name="messageId">&lt;2072096439.1721444988164425.JavaMail.hawkd@ma-hawkd-lapp11.corp.apple.com></textAttr>
+                <textAttr name="messageRcptTo">rfc822;hawkqa8@mailtest.apple.com</textAttr>
+                <dateTimeAttr name="messageReceivedDate">2015-10-16T09:36:05Z</dateTimeAttr>
+                <dateTimeAttr name="messageSentDate">2015-10-16T09:36:05Z</dateTimeAttr>
+            </attrs>
+            <stream variant="data" path="DATA"/>
+            <stream variant="text" path="MAIN_TEXT.txt"/>
+        </element>
+        <element kind="document" parent="0" id="1">
+            <attrs traits="element,integrity,path,content">
+                <stringAttr name="name">collectionReport.txt</stringAttr>
+            </attrs>
+            <attrs traits="element,path">
+                <textAttr name="localName">collectionReport.txt</textAttr>
+            </attrs>
+            <attrs traits="set">
+                <stringAttr name="fileUniformTypeId">public.plain-text</stringAttr>
+            </attrs>
+            <attrs traits="document">
+                <enumAttr name="contentHandlingCode">NORMAL</enumAttr>
+            </attrs>
+            <attrs traits="element">
+                <hashAttr name="contentHash">220BD22055C50B9DFED47359BD9A1DB8B2984A5AD6843C279A1A99DC7D901C06</hashAttr>
+                <enumAttr name="contentReasonCode">FULLY_EXTRACTED</enumAttr>
+                <textAttr name="contentReasonDetail">detected by simpleStats at 89% confidence</textAttr>
+                <enumAttr name="contentStatusCode">SUCCESS</enumAttr>
+                <longAttr name="dataSize">506</longAttr>
+                <hashAttr name="fullHash">C18756D651DF236B8FEA12A8C6DF51FF8D854712AFDF3B277487D6F6AD4D2588</hashAttr>
+                <hashAttr name="streamHash">220BD22055C50B9DFED47359BD9A1DB8B2984A5AD6843C279A1A99DC7D901C06</hashAttr>
+            </attrs>
+            <attrs>
+                <stringAttr name="fileMediaType">text/plain; charset=US-ASCII</stringAttr>
+                <longAttr name="fileOwnerPosixGroupId">3812</longAttr>
+                <longAttr name="fileOwnerPosixUserId">5035</longAttr>
+                <textAttr name="fileTypeDetail">plain text</textAttr>
+                <stringAttr name="fileUnixPerms">644</stringAttr>
+                <stringAttr name="localFileTypeId">TEXT</stringAttr>
+            </attrs>
+            <stream variant="data" path="PARTS/1.data"/>
+            <stream variant="text" path="PARTS/1.txt"/>
+        </element>
+    </elements>
